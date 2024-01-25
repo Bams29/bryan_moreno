@@ -45,5 +45,42 @@ if texto == "campus":
     print("yo soy campus")    
 else:
     print("mentira no lo soy")
+
+##-----FUNCIONES-------
+    
+#---funcion sin parametros ni retornos---
+def dinumero():
+    print("el 3")
+
+dinumero() # llama la funcion de "di numero"
+
+#----funcion con parametros sin retorno----
+def HolaConName(name):
+    print("Jello "+ name + "!")
+
+HolaConName("federico")#llama la funcion "holaConName", añadiendole el parametro "federico"
+
+#----funciones con parametros y retornos----
+def multiplica(val1, val2):
+        return val1 * val2
+
+print(multiplica(3, 5))#retorna la multiplicacion de los parametros guardados en la funcion "multiplica"
+
+#-----funciones sin parametro y con retorno-----
+def dijelou():
+     return print("howdy")
+
+print(dijelou())
+
+##-----DIMENSIONES-------
+mi_lista = ["manolo", "joaquin", "marimar", "rosario", "Danna garcia"]
+print(mi_lista[0]) # Muestra Juan (la primera posición es la 0)
+print(mi_lista[-1]) # Muestra Susana
+print(mi_lista[1]) # Muestra Pedro
+print(mi_lista[2]) # Muestra Laura
+print(mi_lista[-2]) # Muestra Carmen
+
+
+
 ##deployed by Bryan Alexander Moreno Sarmiento
 
