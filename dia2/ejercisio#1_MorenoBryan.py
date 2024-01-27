@@ -1,21 +1,44 @@
 #-----Ecuacion fibonacci--------
+#ejercisio#1_MorenoBryan.py
 
-x = 0
-y = 1
-z = 0
+print("hola usuario")
+print("        ")
+print("te dare una pequeña explicacion sobre la serie de fibinaccci antes de empezar")
+print("Se trata de una secuencia infinita de números naturales; ")
+print("a partir del 0 y el 1, se van sumando a pares, de manera que cada número es igual a la suma de sus dos anteriores")
 
-print ("bienvenido usuario, entes de que inicies se te dara una breve explicacion sobre lo que es la seire de fibonacci.")
-print("  ")
-print ("esta msima Se trata de una secuencia infinita de números naturales; a partir del 0 y el 1, se van sumando a pares, de manera que cada número es igual a la suma de sus dos anteriores.")
-while True:
-    n =int(input("hola usuario, ingresa porfavor un numero ENTERO mayor a 1: "))
-    if n>1:
-        break
-print("1",end=(" "))
 
-for o in range(0, n):
-    z = x+y
-    print(f"{z}", end=(" "))
-    x=y
-    y=z
-    print("")
+def pideNumero():
+    while True:
+        try:
+            n = int(input("ingresa un numero mayor a 1 (0 si gusta salir): "))
+            if n == 0:
+                print("gracias por usar este codigo, ciao")
+                exit()
+            if n>1:
+                return n
+            else:
+                print("elige un numero positivo mayor a 1")
+        except ValueError:
+            print("ERROR: eligio un valor inadecuado")
+
+def generafib(n):
+    lista=[]
+    for i in range(0,n):
+        if i == 0 or i==1:
+            lista.append(1)
+        else:
+            lista.append(lista[i-2]+lista[i-1])
+            
+    return lista
+
+def muestraLista(lista):
+    for i in lista:
+        if(i!=lista[-1]):
+            print(f"{i}", end="+")
+        else:
+            print(f"{i}")
+
+n=pideNumero()
+lista=generafib(n)
+muestraLista(lista)
