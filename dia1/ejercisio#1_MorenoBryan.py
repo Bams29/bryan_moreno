@@ -62,13 +62,13 @@ HolaConName("federico")#llama la funcion "holaConName", añadiendole el parametr
 
 #----funciones con parametros y retornos----
 def multiplica(val1, val2):
-        return val1 * val2
+    return val1 * val2
 
 print(multiplica(3, 5))#retorna la multiplicacion de los parametros guardados en la funcion "multiplica"
 
 #-----funciones sin parametro y con retorno-----
 def dijelou():
-     return print("howdy")
+    return print("howdy")
 
 print(dijelou())
 
