@@ -1,13 +1,13 @@
 #-----Ecuacion fibonacci--------
 #ejercisio#1_MorenoBryan.py
-
+#saludo y explicacion sobre la serie de fibonacci
 print("hola usuario")
 print("        ")
 print("te dare una pequeña explicacion sobre la serie de fibinaccci antes de empezar")
 print("Se trata de una secuencia infinita de números naturales; ")
 print("a partir del 0 y el 1, se van sumando a pares, de manera que cada número es igual a la suma de sus dos anteriores")
 
-
+#entrada del numero hasta donde se dara la serie
 def pideNumero():
     while True:
         try:
@@ -21,7 +21,7 @@ def pideNumero():
                 print("elige un numero positivo mayor a 1")
         except ValueError:
             print("ERROR: eligio un valor inadecuado")
-
+#generacion de la lista donde se mostrara la serie
 def generafib(n):
     lista=[]
     for i in range(0,n):
@@ -31,7 +31,7 @@ def generafib(n):
             lista.append(lista[i-2]+lista[i-1])
             
     return lista
-
+#generacion de la lista junto a la serie
 def muestraLista(lista):
     for i in lista:
         if(i!=lista[-1]):
