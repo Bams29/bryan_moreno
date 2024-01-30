@@ -1,5 +1,4 @@
-
-
+#change machine
 try:
     Credit=int(input("insert credit: "))
 
@@ -19,3 +18,4 @@ try:
 
 except ValueError:
     print("need a number")
+#deployed by bryan Moreno
