@@ -3,7 +3,7 @@
 try:
     Credit=int(input("insert credit: "))
 
-    
+
     Money = [10,5,1]
     billsReturned = []
 
@@ -16,5 +16,6 @@ try:
 
 
     change(Credit)
+
 except ValueError:
     print("need a number")
