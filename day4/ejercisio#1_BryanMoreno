@@ -1,8 +1,0 @@
-array = [1,1,2,4,2]
-result = []
-for i in range(len(array)):
-   for j in range(len(array)):
-       if array[i] * array[j] <= max(array):
-           if (array[j],array[i]) not in result:
-               result.append((array[i],array[j]))
-print(len(result))
