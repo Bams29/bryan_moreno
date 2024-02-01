@@ -22,4 +22,5 @@ else:
 #not definet the variable num
 #did not use the variable "print" correctly
 #in "negate" and "big" was calling a non-existent "b" value
+#i tink the first def is not required
 #deployed by Bryan Moreno mann.co member
