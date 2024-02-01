@@ -1,30 +1,20 @@
-#balls
-
 import math
 
-class Esfera:
-    def __init__(self, x, y, z, r):
-        self.x = x
-        self.y = y
-        self.z = z
-        self.r = r # radio de la esfera
+def check_collision(sphere1, sphere2):
+    # Calculate the distance between the centers of the spheres
+    distance = math.sqrt((sphere1['center'][0] - sphere2['center'][0])**2 + (sphere1['center'][1] - sphere2['center'][1])**2 + (sphere1['center'][2] - sphere2['center'][2])**2)
 
-    def distancia_a_esfera(self, otra_esfera):
-        # distancia entre los centros de las dos esferas
-        distancia = math.sqrt((self.x - otra_esfera.x)**2 + (self.y - otra_esfera.y)**2 + (self.z - otra_esfera.z)**2)
-        # suma de los radios de las dos esferas
-        suma_radios = self.r + otra_esfera.r
-        # verificamos si la distancia es menor o igual a la suma de los radios
-        if distancia <= suma_radios:
-            return True
-        else:
-            return False
+    # Check if the distance is less than or equal to the sum of the radii
+    if distance <= sphere1['radius'] + sphere2['radius']:
+        return True
+    else:
+        return False
 
-# ejemplo de uso
-esfera1 = Esfera(0, 0, 0, 5)
-esfera2 = Esfera(10, 0, 0, 3)
+# Example usage
+sphere1 = {'center': [1, 3, 6], 'radius': 2}
+sphere2 = {'center': [4, 5, 6], 'radius': 1}
+print(check_collision(sphere1, sphere2))  # Should print False
 
-if esfera1.distancia_a_esfera(esfera2):
-    print("Las esferas se tocan o se superponen.")
-else:
-    print("Las esferas no se tocan ni se superponen.")
+sphere1 = {'center': [1, 2, 3], 'radius': 1}
+sphere2 = {'center': [3, 4, 5], 'radius': 1}
+print(check_collision(sphere1, sphere2))  # Should print True
