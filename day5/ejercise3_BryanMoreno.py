@@ -15,6 +15,6 @@ sphere1 = {'center': [1, 3, 6], 'radius': 2}
 sphere2 = {'center': [4, 5, 6], 'radius': 1}
 print(check_collision(sphere1, sphere2))  # Should print False
 
-sphere1 = {'center': [1, 2, 3], 'radius': 1}
+sphere1 = {'center': [1, 2, 3], 'radius': 3}
 sphere2 = {'center': [3, 4, 5], 'radius': 1}
 print(check_collision(sphere1, sphere2))  # Should print True
