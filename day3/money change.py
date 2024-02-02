@@ -1,8 +1,10 @@
 Credit=int(input("insert credit: "))
-Money = [10,5,1]
-billsReturned = []
+
 
 def change(Credit):
+    Money = [10,5,1]
+    billsReturned = []
+
     for i in Money:
         while Credit >=i:
             billsReturned.append(i)

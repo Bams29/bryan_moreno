@@ -21,6 +21,7 @@ def pideNumero():
                 print("elige un numero positivo mayor a 1")
         except ValueError:
             print("ERROR: eligio un valor inadecuado")
+            
 #generacion de la lista donde se mostrara la serie
 def generafib(n):
     lista=[]
@@ -28,9 +29,9 @@ def generafib(n):
         if i == 0 or i==1:
             lista.append(1)
         else:
-            lista.append(lista[i-2]+lista[i-1])
-            
+            lista.append(lista[i-2]+lista[i-1])           
     return lista
+
 #generacion de la lista junto a la serie
 def muestraLista(lista):
     for i in lista:
