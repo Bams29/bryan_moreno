@@ -11,12 +11,12 @@ def encontrar_pares_divisibles(lista, k):
     return pares_divisibles
 
 
-T = int(input(" "))
+T = int(input())
 pares_encontrados2 = []
 for y in range(1, T + 1):
 
-    n, k = map(int, input(" ").split())
-    lista = list(map(int, input(" ").split()))
+    n, k = map(int, input().split())
+    lista = list(map(int, input().split()))
 
     pares_encontrados = encontrar_pares_divisibles(lista, k)
 
