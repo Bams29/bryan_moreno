@@ -54,6 +54,27 @@
                 "apellido1": "pop",
                 "ciudad": "ff",
                 "categor\u00eda": 23
+            },
+            {
+                "id": 4,
+                "nombre": "pedro",
+                "apellido1": "mandilla",
+                "ciudad": "giron",
+                "categor\u00eda": 22
+            },
+            {
+                "id": 12,
+                "nombre": "jhon",
+                "apellido1": "salchichon",
+                "ciudad": "guapota",
+                "categor\u00eda": 23
+            },
+            {
+                "id": 13,
+                "nombre": "portilla",
+                "apellido1": "monrillo",
+                "ciudad": "go",
+                "categor\u00eda": 33
             }
         ],
         "comerciales": [

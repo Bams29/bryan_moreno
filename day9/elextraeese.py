@@ -59,14 +59,15 @@ if __name__ == "__main__":
 
     # Actualizar un cliente existente
     cliente_id = 4
-    datos_actualizados = {"ciudad": "Barcelona"}
+    newcyry = input("ingrese la ciudad a donde se cambio: ")
+    datos_actualizados = {"ciudad": newcyry}
     if handler.update_cliente(cliente_id, datos_actualizados):
         print(f"Cliente con ID {cliente_id} actualizado correctamente.")
     else:
         print(f"No se encontró ningún cliente con ID {cliente_id}.")
 
     # Eliminar un cliente
-    n = input()
+    n = int(input())
     cliente_id_a_eliminar = n
-    handler.delete_cliente(cliente_id_a_eliminar)
+    handler.delete_cliente(cliente_id_a_eliminar )
     print(f"Cliente con ID {cliente_id_a_eliminar} eliminado correctamente.")
