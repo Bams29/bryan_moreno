@@ -43,7 +43,12 @@ if __name__ == "__main__":
     handler = DataHandler('data.json')
 
     # Crear un nuevo cliente
-    nuevo_cliente = {"id": 11, "nombre": "Pedro", "apellido1": "Martínez", "ciudad": "Madrid", "categoría": 150}
+    idd = int(input("porfa ingrese un id: "))
+    nomb = input("ingrese un nombre: ")
+    apell = input("ingrese un apellido: ")
+    ciud = input("ingresa una city: ")
+    catt= int(input("ingrese una categoria: "))
+    nuevo_cliente = {"id": idd, "nombre": nomb, "apellido1": apell, "ciudad": ciud, "categoría": catt}
     handler.create_cliente(nuevo_cliente)
 
     # Leer todos los clientes
@@ -61,6 +66,7 @@ if __name__ == "__main__":
         print(f"No se encontró ningún cliente con ID {cliente_id}.")
 
     # Eliminar un cliente
-    cliente_id_a_eliminar = 11
+    n = input()
+    cliente_id_a_eliminar = n
     handler.delete_cliente(cliente_id_a_eliminar)
     print(f"Cliente con ID {cliente_id_a_eliminar} eliminado correctamente.")

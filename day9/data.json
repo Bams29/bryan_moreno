@@ -2,13 +2,6 @@
     "ventas": {
         "clientes": [
             {
-                "id": 4,
-                "nombre": "Adri\u00e1n",
-                "apellido1": "Su\u00e1rez",
-                "ciudad": "Barcelona",
-                "categor\u00eda": 300
-            },
-            {
                 "id": 5,
                 "nombre": "Marcos",
                 "apellido1": "Loyola",
@@ -54,6 +47,13 @@
                 "apellido2": "Loyola",
                 "ciudad": "Sevilla",
                 "categor\u00eda": 125
+            },
+            {
+                "id": 11,
+                "nombre": "ponpon",
+                "apellido1": "pop",
+                "ciudad": "ff",
+                "categor\u00eda": 23
             }
         ],
         "comerciales": [
