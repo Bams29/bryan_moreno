@@ -3,33 +3,33 @@
         "clientes": [
             {
                 "id": 4,
-                "nombre": "Adri\u00c3\u00a1n",
-                "apellido1": "Su\u00c3\u00a1rez",
+                "nombre": "Adri\u00e1n",
+                "apellido1": "Su\u00e1rez",
                 "ciudad": "Barcelona",
-                "categor\u00c3\u00ada": 300
+                "categor\u00eda": 300
             },
             {
                 "id": 5,
                 "nombre": "Marcos",
                 "apellido1": "Loyola",
-                "apellido2": "M\u00c3\u00a9ndez",
-                "ciudad": "Almer\u00c3\u00ada",
-                "categor\u00c3\u00ada": 200
+                "apellido2": "M\u00e9ndez",
+                "ciudad": "Almer\u00eda",
+                "categor\u00eda": 200
             },
             {
                 "id": 6,
-                "nombre": "Mar\u00c3\u00ada",
+                "nombre": "Mar\u00eda",
                 "apellido1": "Santana",
                 "apellido2": "Moreno",
-                "ciudad": "C\u00c3\u00a1diz",
-                "categor\u00c3\u00ada": 100
+                "ciudad": "C\u00e1diz",
+                "categor\u00eda": 100
             },
             {
                 "id": 7,
                 "nombre": "Pilar",
                 "apellido1": "Ruiz",
                 "ciudad": "Sevilla",
-                "categor\u00c3\u00ada": 300
+                "categor\u00eda": 300
             },
             {
                 "id": 8,
@@ -37,15 +37,15 @@
                 "apellido1": "Ruiz",
                 "apellido2": "Santana",
                 "ciudad": "Huelva",
-                "categor\u00c3\u00ada": 200
+                "categor\u00eda": 200
             },
             {
                 "id": 9,
                 "nombre": "Guillermo",
-                "apellido1": "L\u00c3\u00b3pez",
-                "apellido2": "G\u00c3\u00b3mez",
+                "apellido1": "L\u00f3pez",
+                "apellido2": "G\u00f3mez",
                 "ciudad": "Granada",
-                "categor\u00c3\u00ada": 225
+                "categor\u00eda": 225
             },
             {
                 "id": 10,
@@ -53,7 +53,7 @@
                 "apellido1": "Santana",
                 "apellido2": "Loyola",
                 "ciudad": "Sevilla",
-                "categor\u00c3\u00ada": 125
+                "categor\u00eda": 125
             }
         ],
         "comerciales": [
@@ -62,42 +62,42 @@
                 "nombre": "Diego",
                 "apellido1": "Flores",
                 "apellido2": "Salas",
-                "comisi\u00c3\u00b3n": 0.11
+                "comisi\u00f3n": 0.11
             },
             {
                 "id": 4,
                 "nombre": "Marta",
                 "apellido1": "Herrera",
                 "apellido2": "Gil",
-                "comisi\u00c3\u00b3n": 0.14
+                "comisi\u00f3n": 0.14
             },
             {
                 "id": 5,
                 "nombre": "Antonio",
                 "apellido1": "Carretero",
                 "apellido2": "Ortega",
-                "comisi\u00c3\u00b3n": 0.12
+                "comisi\u00f3n": 0.12
             },
             {
                 "id": 6,
                 "nombre": "Manuel",
-                "apellido1": "Dom\u00c3\u00adnguez",
-                "apellido2": "Hern\u00c3\u00a1ndez",
-                "comisi\u00c3\u00b3n": 0.13
+                "apellido1": "Dom\u00ednguez",
+                "apellido2": "Hern\u00e1ndez",
+                "comisi\u00f3n": 0.13
             },
             {
                 "id": 7,
                 "nombre": "Antonio",
                 "apellido1": "Vega",
-                "apellido2": "Hern\u00c3\u00a1ndez",
-                "comisi\u00c3\u00b3n": 0.11
+                "apellido2": "Hern\u00e1ndez",
+                "comisi\u00f3n": 0.11
             },
             {
                 "id": 8,
                 "nombre": "Alfredo",
                 "apellido1": "Ruiz",
                 "apellido2": "Flores",
-                "comisi\u00c3\u00b3n": 0.05
+                "comisi\u00f3n": 0.05
             }
         ],
         "pedidos": [

@@ -7,13 +7,13 @@ class DataHandler:
 
     def load_data(self):
         try:
-            with open(self.filename, 'r') as f:
+            with open(self.filename, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except FileNotFoundError:
             return {'ventas': {'clientes': [], 'comerciales': [], 'pedidos': []}}
 
     def save_data(self):
-        with open(self.filename, 'w') as f:
+        with open(self.filename, 'w', encoding='utf-8') as f:
             json.dump(self.data, f, indent=4)
 
     def create_cliente(self, cliente):
