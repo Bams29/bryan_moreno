@@ -2,14 +2,6 @@
     "ventas": {
         "clientes": [
             {
-                "id": 5,
-                "nombre": "Marcos",
-                "apellido1": "Loyola",
-                "apellido2": "M\u00e9ndez",
-                "ciudad": "Almer\u00eda",
-                "categor\u00eda": 200
-            },
-            {
                 "id": 6,
                 "nombre": "Mar\u00eda",
                 "apellido1": "Santana",
@@ -59,7 +51,7 @@
                 "id": 4,
                 "nombre": "pedro",
                 "apellido1": "mandilla",
-                "ciudad": "giron",
+                "ciudad": "bogota",
                 "categor\u00eda": 22
             },
             {
@@ -75,6 +67,13 @@
                 "apellido1": "monrillo",
                 "ciudad": "go",
                 "categor\u00eda": 33
+            },
+            {
+                "id": 18,
+                "nombre": "marcos",
+                "apellido1": "pellon",
+                "ciudad": "giron",
+                "categor\u00eda": 55
             }
         ],
         "comerciales": [
