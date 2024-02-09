@@ -3,7 +3,7 @@ import itertools
 def nearest_leg_lengths(coin_thicknesses, table_heights):
     def possible_leg_lengths(coin_thicknesses, target_height):
         min_leg_length = float('inf')
-        max_leg_length = 0
+        max_leg_length = 0 
         for i in range(1, len(coin_thicknesses) + 1):
             for combination in itertools.combinations(coin_thicknesses, i):
                 total_thickness = sum(combination)
@@ -42,3 +42,5 @@ while True:
     results = nearest_leg_lengths(coin_thicknesses, table_heights)
     for min_leg_length, max_leg_length in results:
         print(min_leg_length, max_leg_length)
+        
+    
